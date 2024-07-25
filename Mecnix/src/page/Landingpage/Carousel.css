@@ -1,0 +1,17 @@
+  
+  .slides-container {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    margin-left: 10px;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .slide img {
+    width: 100%;
+    border-radius: 10px; /* Optional: Add border-radius if you want rounded images */
+  }
+  

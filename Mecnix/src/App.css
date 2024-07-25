@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap');
+#gradient-border {
+    border-width: 1px; 
+    border-style: solid;
+    border-image: linear-gradient(to right, #7000FF,#E2B6AE) 1;
+    /* border-radius: 32px; */
+    margin-left: 140%;
+  }
+  
+  
