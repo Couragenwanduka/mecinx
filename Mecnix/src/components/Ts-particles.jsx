@@ -29,6 +29,7 @@ const ShiningSpotsBackground = () => {
                             color: {
                                 value: "#000000",
                             },
+                        
                         },
                         fpsLimit: 120,
                         interactivity: {
