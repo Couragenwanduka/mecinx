@@ -101,13 +101,13 @@ const ScrollComponent = () => {
       <section data-aos="fade-up" className="h-screen flex items-center justify-center">
       <div>
             <div>
-              <p className="text-4xl font-bold font-Saira  ml-32  mt-10">Dev Onboarding Program</p>
+              <p className="text-4xl font-bold font-Saira  ml-28">Dev Onboarding Program</p>
             </div>
               <>
               <div className=''>
                <img src={dropdown3} className='h-96'/>
                </div>
-              <div className="border border-gray-600 rounded-3xl w-customWidth ml-32 h-full -mt-80">
+              <div className="border border-gray-600 rounded-3xl w-customWidth ml-24 h-full -mt-80">
                 <div>
                   <img src={devImage}/>
                 </div>
