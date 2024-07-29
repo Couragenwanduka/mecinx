@@ -19,7 +19,7 @@ const ScrollComponent = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <section className="h-screen flex items-center justify-center">
+      <section className="h-screen flex items-center justify-center" id='about'>
         <div>
           <div className="flex ml-4">
             <span>

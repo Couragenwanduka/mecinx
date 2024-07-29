@@ -23,7 +23,7 @@ const Landingpage = () => {
    const slides = [slideImages, slideImages, slideImages];
 
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden' id='home'>
       <NavigationBar />
       <div className="absolute inset-0 flex items-center justify-center md:-mt-16 md:ml-96">
         <img src={Cube} className="h-4/6 z-30 ml-48" alt="Cube" />
@@ -49,7 +49,7 @@ const Landingpage = () => {
           <img src={flare} className="h-8 md:ml-10 ml-5 mt-5" alt="Flare" />
           <img src={solana} className="h-8 md:ml-10 ml-5 mt-5" alt="Solana" />
           <img src={sui} className="h-8 md:ml-10 ml-5 mt-5" alt="Sui" />
-          <img src={gala} className="h-8 md:ml-10 ml-5 mt-5" alt="Gala" />
+          <img src={gala} className="h-8 md:ml-10 ml-5 mt-5" alt="Gala" id='service' />
           <img src={nexo} className="h-8 md:ml-10 ml-5 mt-5" alt="Nexo" />
         </span>
 
@@ -90,7 +90,7 @@ const Landingpage = () => {
           </div>
           <div className='flex w-11/12'>
             <div className='mt-10 w-full'>
-              <img src={readBlog} className='w- customWidth5' />
+              <img src={readBlog} className='w-customWidth5' />
             </div>
             <div className='w-3/12'>
               <p className='word-break w-20 text-5xl font-bold mt-10 leading-tight ml-10'>READ OUR BLOGS</p>
