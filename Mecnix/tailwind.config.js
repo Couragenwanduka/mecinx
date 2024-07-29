@@ -19,8 +19,11 @@ export const theme = {
      pictureHeight:'40%'
     },
     width:{
-     customWidth:'80%',
-     customWidth2:'85%'
+     customWidth:'86%',
+     customWidth2:'89%',
+     customWidth3:'96%',
+     customWidth4:'91%',
+     customWidth5:'120%',
     
     },
     backgroundImage: {

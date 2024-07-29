@@ -15,7 +15,6 @@ const ShiningSpotsBackground = () => {
     }, []);
 
     const particlesLoaded = (container) => {
-        console.log(container);
     };
 
     return (
@@ -86,7 +85,7 @@ const ShiningSpotsBackground = () => {
                                 type: "circle",
                             },
                             size: {
-                                value: 3,
+                                value: 2,
                             },
                         },
                         detectRetina: true,

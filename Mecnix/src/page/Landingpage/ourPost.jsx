@@ -13,8 +13,9 @@ const Carousel = ({ slides, interval = 3000 }) => {
   }, [slides.length, interval]);
 
   return (
-    <div className="flex w-80  ml-30">
-      <div className="slides-container" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
+    // style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+    <div className="flex w-96 ml-10">
+      <div className="slides-container">
         {slides.map((slide, index) => (
           <div className="slide" key={index}>
             <img src={slide} alt={`Slide ${index}`} className='p-2' />

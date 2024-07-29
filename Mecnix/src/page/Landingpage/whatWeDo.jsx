@@ -21,16 +21,16 @@ const ScrollComponent = () => {
     <div className="container mx-auto p-4">
       <section className="h-screen flex items-center justify-center">
         <div>
-          <div className="flex ml-14">
+          <div className="flex ml-4">
             <span>
               <img src={dropdown} className='h-40' />
             </span>
             <span className="mt-20 ml-5">
               <img src={whatwedo} alt="What We Do" className="h-14" />
-              <p className="text-4xl font-bold font-Saira">Project Development</p>
+              <p className="text-4xl font-bold font-Saira -ml-1">Project Development</p>
             </span>
           </div>
-          <div className="border border-gray-600 rounded-3xl w-customWidth ml-36 h-full mt-20">
+          <div className="border border-gray-600 rounded-3xl w-customWidth ml-24 h-full mt-20 bg-black">
             <div className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm h-40 rounded-t-3xl">
               <p className="break-words font-Saira w-customWidth2 ml-20 pt-10 font-medium tracking-wide">
                 We develop projects that push the boundaries of innovation in the crypto space. Our expert team brings your ideas to life, ensuring they are built on solid technical foundations and designed to succeed. From conceptualization to deployment, we provide end-to-end development services tailored to meet your specific needs.
@@ -41,35 +41,35 @@ const ScrollComponent = () => {
         </div>
       </section>
 
-      <section data-aos="fade-up" className="h-screen flex items-center justify-center mt-20">
+      <section data-aos="fade-up" className="h-screen flex items-center justify-center mt-20 bg-black">
         <div>
           <div>
-            <p className="text-4xl font-bold font-Saira ml-32">Project Management and Marketing</p>
+            <p className="text-4xl font-bold font-Saira ml-28">Project Management and Marketing</p>
             <div>
-              <img src={dropdown2} className='h-96 -mt-20 ml-1' />
+              <img src={dropdown2} className='h-96 -mt-20 ml-6' />
             </div>
           </div>
 
           <div className="p-4 -mt-32">
             <div>
-              <p className="break-words w-9/12 ml-28 text-gray-300 -mt-40 font-saira">
+              <p className="break-words w-9/12 ml-24 text-gray-300 -mt-40 font-saira">
                 We provide holistic project management and marketing services that encompass every aspect of your project’s journey. Our offerings include:
               </p>
             </div>
             <div className="flex w-11/12">
-              <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 w-4/12 ml-24 mt-5">
+              <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 w-6/12 ml-24 mt-5">
                 <p className="mt-5 ml-10 font-saira font-semibold">Design</p>
                 <p className="break-words w-64 ml-10 mt-10">
                   We tell the right story by crafting visually compelling and user-friendly interfaces for your project.
                 </p>
               </span>
-              <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 w-4/12 mt-5 ml-2">
+              <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 w-6/12 mt-5 ml-2">
                 <p className="mt-5 ml-10 font-saira font-semibold">Writing</p>
                 <p className="break-words w-64 ml-10 mt-10">
                   Creating engaging content that resonates with your audience and helps your project to drive sales.
                 </p>
               </span>
-              <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 w-4/12 mt-5 ml-2">
+              <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 w-6/12 mt-5 ml-2">
                 <p className="mt-5 ml-10 font-saira font-semibold">Community Management</p>
                 <p className="break-words w-64 ml-10 mt-10">
                   We help web3 companies create, and manage their community to foster engagement and loyalty.
@@ -77,7 +77,7 @@ const ScrollComponent = () => {
               </span>
             </div>
             <div className="flex ml-20 w-10/12">
-              <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 w-4/12 mt-5 ml-2">
+              <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 w-4/12 mt-5 ml-2 " >
                 <p className="mt-5 ml-10 font-saira font-semibold">Shilling</p>
                 <p className="break-words w-68 ml-10 mt-10">
                   Promoting your project through effective shilling strategies. Our team employs various tactics to generate buzz and increase visibility.
@@ -94,14 +94,14 @@ const ScrollComponent = () => {
         </div>
       </section>
 
-      <section data-aos="fade-up" className="h-screen flex items-center justify-center">
+      <section data-aos="fade-up" className="h-screen flex items-center justify-center bg-black">
         <div>
           <div>
             <p className="text-4xl font-bold font-Saira ml-28">Dev Onboarding Program</p>
           </div>
 
           <div>
-            <img src={dropdown3} className='h-96' />
+            <img src={dropdown3} className='h-96 ml-6'/>
           </div>
           <div className="border border-gray-600 rounded-3xl w-customWidth ml-24 h-full -mt-80">
             <div>
