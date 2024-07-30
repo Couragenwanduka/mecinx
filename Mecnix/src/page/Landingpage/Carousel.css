@@ -15,3 +15,28 @@
     border-radius: 10px; /* Optional: Add border-radius if you want rounded images */
   }
   
+  .carousel-container {
+    display: flex;
+    overflow: hidden;
+    /* width: 100%; */
+    position: relative;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 auto;
+    /* width: 33.33%;  */
+    box-sizing: border-box;
+    padding: 0 10px; /* Optional: Add some spacing between slides */
+  }
+  
+  .carousel-slide img {
+    /* width: 100%; */
+    display: block;
+  }
+  
+  

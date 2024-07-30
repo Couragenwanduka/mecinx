@@ -24,6 +24,7 @@ export const theme = {
      customWidth3:'96%',
      customWidth4:'91%',
      customWidth5:'120%',
+     customWidth6:'100%',
     
     },
     backgroundImage: {
