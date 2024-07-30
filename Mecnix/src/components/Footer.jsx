@@ -19,7 +19,7 @@ const Footer = () => {
                 <p className="ml-36 mt-3 font-saira text-lg">Optimized Press release</p>
             </div>
         </div>
-        <div className="flex md:flex-row flex-col md:mt-20 mb-20 ml-10 mt-5">
+        <div className="flex md:flex-row flex-col md:mt-20 mb-20 md:ml-10 mt-14">
             <div>
                 <img src={socialMedia} className="md:h-10 "/>
             </div>

@@ -56,10 +56,10 @@ const NavigationBar = () => {
                     </div>
                 )}
                 {/* Mobile view */}
-                <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-                    <nav className="z-40 mt-8 md:block w-full">
-                        <ul className="flex flex-col space-y-4 bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm text-Saira text-sm rounded-2xl border-gray-600 border h-15 w-full p-3 md:ml-20 mb-5">
-                            <div className="md:hidden text-4xl mt-0 ml-10" onClick={toggleMenu}>
+                <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} w-full`}>
+                    <nav className="z-40 mt-8 w-full">
+                        <ul className="flex flex-col space-y-4 bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm text-Saira text-sm rounded-2xl border-gray-600 border h-15 ">
+                            <div className="md:hidden text-4xl mt-5 ml-64" onClick={toggleMenu}>
                                 X
                             </div>
                             <li className="cursor-pointer hover:text-textColor hover:bg-white hover:rounded-xl hover:font-bold w-full h-10 flex items-center justify-center">

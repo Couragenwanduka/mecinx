@@ -32,11 +32,11 @@ const ScrollComponent = () => {
           </div>
           <div className="border border-gray-600 rounded-3xl md:w-customWidth w-customWidth6 md:ml-24 -ml-4  h-full md:mt-20 bg-black">
             <div className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm h-40 rounded-t-3xl">
-              <p className="break-words font-Saira w-customWidth2 md:ml-20 md:pt-10 font-medium tracking-wide ml-10 md:text-lg text-sm pt-5 ">
+              <p className="break-words font-Saira w-customWidth2 md:ml-20 md:pt-10 font-medium tracking-wide ml-7 md:text-lg text-sm pt-5 ">
                 We develop projects that push the boundaries of innovation in the crypto space. Our expert team brings your ideas to life, ensuring they are built on solid technical foundations and designed to succeed. From conceptualization to deployment, we provide end-to-end development services tailored to meet your specific needs.
               </p>
             </div>
-            <img src={react} alt="React" className="mt-4" />
+            <img src={react} alt="React" className="mt-4 md:h-full h-48" />
           </div>
         </div>
       </section>
@@ -58,34 +58,34 @@ const ScrollComponent = () => {
             </div>
             <div className="flex md:flex-row flex-col md:w-11/12">
               <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 md:w-6/12 w-11/12 md:ml-24 md:mt-5 mt-32 ml-2">
-                <p className="mt-5 ml-10 font-saira font-semibold">Design</p>
-                <p className="break-words w-64 ml-10 mt-10">
+                <p className="mt-5 md:ml-10 ml-7 font-saira font-semibold">Design</p>
+                <p className="break-words w-64 md:ml-10 ml-7 mt-10">
                   We tell the right story by crafting visually compelling and user-friendly interfaces for your project.
                 </p>
               </span>
               <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 md:w-6/12 w-11/12 mt-5 ml-2">
-                <p className="mt-5 ml-10 font-saira font-semibold">Writing</p>
-                <p className="break-words w-64 ml-10 mt-10">
+                <p className="mt-5 md:ml-10 ml-7 font-saira font-semibold">Writing</p>
+                <p className="break-words w-64 md:ml-10  ml-7 mt-10">
                   Creating engaging content that resonates with your audience and helps your project to drive sales.
                 </p>
               </span>
               <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 md:w-6/12 w-11/12 mt-5 ml-2">
-                <p className="mt-5 ml-10 font-saira font-semibold">Community Management</p>
-                <p className="break-words w-64 ml-10 mt-10">
+                <p className="mt-5 md:ml-10 ml-7 font-saira font-semibold">Community Management</p>
+                <p className="break-words w-64 md:ml-10 ml-7 mt-10">
                   We help web3 companies create, and manage their community to foster engagement and loyalty.
                 </p>
               </span>
             </div>
             <div className="flex md:ml-20 md:w-10/12 md:flex-row flex-col">
               <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 md:w-4/12 w-11/12 mt-5 ml-2 " >
-                <p className="mt-5 ml-10 font-saira font-semibold">Shilling</p>
-                <p className="break-words w-68 ml-10 mt-10">
+                <p className="mt-5 md:ml-10 ml-7 font-saira font-semibold">Shilling</p>
+                <p className="break-words w-68 md:ml-10 ml-7 mt-10">
                   Promoting your project through effective shilling strategies. Our team employs various tactics to generate buzz and increase visibility.
                 </p>
               </span>
               <span className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md font-saira text-base rounded-2xl border-gray-600 border h-52 md:w-4/12 w-11/12 mt-5 ml-2">
-                <p className="mt-5 ml-10 font-saira font-semibold">KOLs</p>
-                <p className="break-words w-64 ml-10 mt-10">
+                <p className="mt-5 md:ml-10 ml-7 font-saira font-semibold">KOLs</p>
+                <p className="break-words w-64 md:ml-10 ml-7 mt-10">
                   Leveraging Key Opinion Leaders to boost your project's visibility and credibility.
                 </p>
               </span>
