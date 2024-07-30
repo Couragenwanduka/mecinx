@@ -56,7 +56,7 @@ const NavigationBar = () => {
                     </ul>
                 </nav>
 
-                {/* Hamburger Icon */}
+                {/* Hamburger Icon  */}
                 {!isMenuOpen && (
                     <div className='md:hidden text-4xl mt-10 mr-7' onClick={toggleMenu}>
                         <RxHamburgerMenu />
