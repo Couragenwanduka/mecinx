@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import ShiningSpotsBackground from "./Ts-particles";
 import Logo from '../images/MainLogo.png';
 import { RxHamburgerMenu } from "react-icons/rx";
+import jamMenu from '../images/jam_menu.png'; 
 
 const NavigationBar = () => {
     const [color, setColor] = useState('black');
@@ -58,8 +59,8 @@ const NavigationBar = () => {
 
                 {/* Hamburger Icon  */}
                 {!isMenuOpen && (
-                    <div className='md:hidden text-4xl mt-10 mr-7' onClick={toggleMenu}>
-                        <RxHamburgerMenu />
+                    <div className='md:hidden text-4xl mt-7 mr-7  bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm text-Saira rounded-2xl border-gray-600 border h-12 p-2' onClick={toggleMenu}>
+                       <img src={jamMenu}/>
                     </div>
                 )}
 

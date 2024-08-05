@@ -14,19 +14,19 @@ const Footer = () => {
                         <button className="bg-textColor h-10 p-2 md:text-lg font-medium w-1/2 mt-3 mr-4 rounded-lg">Subscribe &rarr;</button>
                     </div>
                 </div>
-                <div className="md:mt-20 md:ml-96 hidden md:block">
-                    <p className="font-saira font-bold text-3xl ml-36">Other Services</p>
-                    <p className="ml-36 mt-3 font-saira text-lg">Search Engine Optimization</p>
-                    <p className="ml-36 mt-3 font-saira text-lg">Optimized Press Release</p>
+                <div className="md:mt-20 md:ml-96 ml-0 md:block mt-3">
+                    <p className="font-saira font-bold md:text-3xl text-xl md:ml-36">Other Services</p>
+                    <p className="md:ml-36 mt-3 font-saira md:text-lg text-base text-gray-500 ml-4">Search Engine Optimization</p>
+                    <p className="md:ml-36 mt-3 font-saira md:text-lg text-base text-gray-500 ml-4">Optimized Press Release</p>
                 </div>
             </div>
 
             {/* Social Media and Copyright Section */}
-            <div className="flex md:flex-row flex-col md:mt-20 mb-20 md:ml-10 mt-14">
+            <div className="flex md:flex-row flex-col md:mt-20 mb-20 md:ml-10 mt-36">
                 <div>
                     <img src={socialMedia} className="md:h-10" alt="Social Media Icons" />
                 </div>
-                <div className="md:ml-96 ml-5 md:mt-0 mt-10">
+                <div className="md:ml-96 md:mt-0 mt-10">
                     <p className="md:ml-60 font-saira">© 2021 Copyright: mecnix.com</p>
                 </div>
             </div>
