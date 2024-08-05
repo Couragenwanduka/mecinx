@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <div className="bg-black mt-10 md:w-full">
+        <div className="bg-black mt-10 md:w-full overflow-x-hidden">
             {/* Newsletter Subscription Section */}
             <div className="flex md:flex-row flex-col h-52">
                 <div>

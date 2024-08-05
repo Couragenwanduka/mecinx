@@ -23,7 +23,7 @@ export const theme = {
      customWidth2:'89%',
      customWidth3:'96%',
      customWidth4:'91%',
-     customWidth5:'120%',
+     customWidth5:'110%',
      customWidth6:'100%',
     
     },

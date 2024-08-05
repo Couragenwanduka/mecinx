@@ -33,8 +33,9 @@ const Landingpage = () => {
        <div className="absolute inset-0 flex items-center justify-center md:-mt-16  md:ml-96">
         <img src={Cube} className="md:h-4/6 z-30 md:ml-48 hidden md:block" alt="Cube" />
        </div>
-       <div className='absolute inset-0'>
-        <img src={mobileCube} className='md:hidden'/>
+       {/* mobile ilustration */}
+       <div className='absolute inset-0 w-full'>
+        <img src={mobileCube} className='md:hidden -ml-2'/>
        </div>
     </section>
       
@@ -69,9 +70,9 @@ const Landingpage = () => {
           <img src={nexo} className="h-8 md:ml-10 ml-5 mt-5" alt="Nexo" />
         </span>
         </div>
-
+         {/* mobile for companies */}
         <div className='md:hidden '>
-        <span className="flex mt-10 border-t border-gray-600 mr-20 justify-between w-full">
+        <span className="flex mt-10 border-t border-gray-600 justify-between w-11/12">
           <img src={Binance} className="h-4 mt-5 md:block" alt="Binance" />
           <img src={flare} className="h-4 ml-3 mt-5" alt="Flare" />
           <img src={solana} className="h-4 ml-3 mt-5" alt="Solana" />
@@ -116,9 +117,9 @@ const Landingpage = () => {
           </div>
           {/* mobile cryptocafe */}
          <section>
-          <div className='md:hidden block md:mt-0 -mt-68'>
+          <div className='md:hidden block md:mt-0 -mt-40'>
             <div className=' md:block'>
-                <img src={meetingMobile}/>
+                <img src={meetingMobile} className=''/>
             </div>
             <div className='bg-black md:mt-0 -mt-40'>
                 <img src={cryptocafe} className='h-16  mt-10 ml-3' />
@@ -126,8 +127,8 @@ const Landingpage = () => {
                 <p className='word-break w-96 md:ml-16 text-gray-600 font-saira mt-4 ml-2'>
                   Join our Twitter Space to stay updated on the latest happenings in the Web3 space. Don't miss out on insightful discussions and the chance to connect with industry experts.
                 </p>
-                <button className='bg-textColor w-44 h-12 text-sm font-saira md:ml-16 rounded-2xl mt-3 ml-2 flex p-2 pt-3'> Add to your Calendar
-                  <img src={calender}/>
+                <button className='bg-textColor w-52 h-12 text-sm font-saira md:ml-16 rounded-2xl mt-3 ml-2 flex p-2 pt-3 pl-4'> Add to your Calendar
+                  <img src={calender} className='ml-4'/>
                 </button>
               </div>
           </div>
