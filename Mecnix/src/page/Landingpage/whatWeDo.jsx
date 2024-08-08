@@ -111,7 +111,7 @@ const ScrollComponent = () => {
               <img src={devImage} className=' h-40 md:h-full'/>
             </div>
             <div className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm md:h-40 h-72 rounded-b-3xl">
-              <p className="break-words font-Saira w-customWidth2 md:ml-20 ml-5 pt-10 font-medium tracking-wide">
+              <p className="break-words font-Saira w-customWidth2 md:ml-20 ml-5 pt-7 font-medium tracking-wide text-lg">
                 Our Dev Onboarding Program is designed to help blockchain projects attract and integrate skilled developers into their ecosystems. We provide comprehensive support to ensure a smooth transition and productive collaboration. Our program includes: Developer Outreach, Training and Support, and Community Building.
               </p>
             </div>
