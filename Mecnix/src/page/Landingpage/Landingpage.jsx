@@ -79,7 +79,7 @@ const Landingpage = () => {
           <img src={nexo} className="h-4 ml-3 mt-5" alt="Nexo" />
         </span>
         </div>
-        <div className="flex flex-col md:flex-row md:w-customWidth2 w-customWidth7 border border-gray-600 md:ml-14 -ml-3 mt-28 rounded-2xl bg-black">
+        <div className="flex flex-col md:flex-row md:w-customWidth2 w-customWidth7 border border-gray-600 md:ml-14 -ml-1 mt-28 rounded-2xl bg-black">
           <span className="md:w-1/2">
             <img src={mangetMan} alt="Magnet Man" />
           </span>

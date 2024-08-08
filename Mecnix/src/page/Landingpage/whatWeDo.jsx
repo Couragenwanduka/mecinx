@@ -37,7 +37,7 @@ const ScrollComponent = () => {
                 We develop projects that push the boundaries of innovation in the crypto space. Our expert team brings your ideas to life, ensuring they are built on solid technical foundations and designed to succeed. From conceptualization to deployment, we provide end-to-end development services tailored to meet your specific needs.
               </p>
             </div>
-            <img src={react} alt="React" className="mt-4 md:h-full h-40" />
+            <img src={react} alt="React" className="mt-4 md:h-full h-44" />
           </div>
         </div>
       </section>
