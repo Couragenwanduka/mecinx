@@ -27,7 +27,7 @@ const Landingpage = () => {
    const images = [Binance, flare, solana, sui, gala, nexo]
 
   return (
-    <div className='overflow-x-hidden' id='home'>
+    <div className='overflow-x-hidden'>
       <NavigationBar />
     <section>
        <div className="absolute inset-0 flex items-center justify-center md:-mt-16  md:ml-96">
@@ -72,18 +72,18 @@ const Landingpage = () => {
         </div>
          {/* mobile for companies */}
         <div className='md:hidden '>
-        <span className="flex mt-10 border-t border-gray-600 justify-between w-11/12">
+        <span className="flex mt-10 border-t border-gray-600 justify-between">
           <img src={Binance} className="h-4 mt-5 md:block" alt="Binance" />
           <img src={flare} className="h-4 ml-3 mt-5" alt="Flare" />
           <img src={solana} className="h-4 ml-3 mt-5" alt="Solana" />
           <img src={nexo} className="h-4 ml-3 mt-5" alt="Nexo" />
         </span>
         </div>
-        <div className="flex flex-col md:flex-row md:w-customWidth2 w-customWidth6 border border-gray-600 md:ml-14 -ml-3 mt-28 rounded-2xl bg-black">
+        <div className="flex flex-col md:flex-row md:w-customWidth2 w-customWidth7 border border-gray-600 md:ml-14 -ml-3 mt-28 rounded-2xl bg-black">
           <span className="md:w-1/2">
             <img src={mangetMan} alt="Magnet Man" />
           </span>
-          <span className="md:w-1/2 bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm font-Saira rounded-r-3xl">
+          <span className="md:w-1/2 bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm font-Saira md:rounded-r-3xl rounded-b-3xl">
             <h1 className="text-white font-extrabold md:text-4xl text-2xl md:mt-28 mt-10 md:ml-20 ml-8">We connect</h1>
             <p className="break-words md:w-9/12 w-11/12 md:ml-20 ml-8 mt-3 md:text-lg text-sm md:mb-0 mb-10">
               Cutting-edge Web3 products with the community and investors who will reshape the future. Our goal is to enable people and companies to successfully navigate the complicated and constantly changing world of blockchain technology.
