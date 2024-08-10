@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import ShiningSpotsBackground from "./Ts-particles";
 import Logo from '../images/MainLogo.png';
-import { RxHamburgerMenu } from "react-icons/rx";
 import jamMenu from '../images/jam_menu.png'; 
 
 const NavigationBar = () => {

@@ -6,7 +6,8 @@ export const content = [
 export const theme = {
   extend: {
     colors: {
-      textColor: '#660DD7'
+      textColor: '#660DD7',
+      textColor2: '#FFC4BA',
     },
     fontFamily: {
       saira: ['Saira', 'sans-serif'],
