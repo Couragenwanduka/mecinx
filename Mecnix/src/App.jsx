@@ -11,7 +11,6 @@ function ROUTER() {
       <Routes>
         <Route path="/" element={<Landingpage />} />
         <Route path="/blog" element={<BlogPage />} />
-        
       </Routes>
     </BrowserRouter>
   );

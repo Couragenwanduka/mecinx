@@ -21,6 +21,7 @@ import twitter from '../../images/twitter.png';
 import mobileCube from '../../images/mobileCube.png';
 import calender from '../../images/uit_calender.png';
 import meetingMobile from '../../images/mobileImage.png';
+import { Link } from 'react-router-dom';
 
 const Landingpage = () => {
    const slides = [slideImages, slideImages, slideImages];
@@ -141,8 +142,11 @@ const Landingpage = () => {
             <div className='w-3/12'>
               <p className='word-break w-20 text-5xl font-bold mt-10 leading-relaxed ml-10 hidden md:block'>READ OUR BLOGS</p>
               <p className='word-break w-20 text-2xl font-bold mt-7 leading-tight -ml-3 block md:hidden'>READ OUR BLOGS</p>
+              <Link to={'blog'}>
               <p className='bg-textColor w-32 h-10 mt-64  ml-12 rounded text-center text-lg pt-1 hidden md:block'>Visit Blog &rarr;</p>
               <p className=' w-32 h-10 mt-10 -ml-6 rounded text-center text-lg pt-1 block md:hidden'>Visit Blog &rarr;</p>
+              </Link>
+            
             </div>
           </div>
 
