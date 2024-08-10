@@ -5,7 +5,6 @@ import FeatureSlideshow from "./features";
 import Footer from "../../components/Footer";
 
 const BlogPage = () => {
-
     const blogs = [
         {
             title: "Title",

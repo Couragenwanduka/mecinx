@@ -1,8 +1,16 @@
+import { useState } from 'react';
 import Logo from '../images/MainLogo.png';
 import write from '../images/write.png';
 import { CiSearch } from "react-icons/ci";
+import SignUp from '../page/signup/Signup';
 
 const BlogNavBar = ( ) => {
+const [isOpen, openModal]= useState(false);
+
+const openModalHandler = () => {
+    openModal(true);
+  };
+
     return(
       <>
         <header className='bg-black flex max-h-20 h-20 justify-between w-full'>
@@ -18,10 +26,11 @@ const BlogNavBar = ( ) => {
             </form>
             <nav>
                 <ul>
-                    <li><a href="#"><img src={write} alt='write' className='h-9 mt-5 mr-5'/></a></li>
+                    <li onClick={openModalHandler}><img src={write} alt='write' className='h-9 mt-5 mr-5'/></li>
                 </ul>  
             </nav>
         </header>
+        {isOpen && <SignUp isOpen={isOpen} openModal={openModal} />}
       </>
     )
 }
