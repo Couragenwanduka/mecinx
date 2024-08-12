@@ -33,11 +33,11 @@ const ScrollComponent = () => {
           </div>
           <div className="border border-gray-600 rounded-3xl md:w-customWidth w-customWidth6 md:ml-24 -ml-4  h-full md:mt-20 bg-black">
             <div className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm h-40 rounded-t-3xl">
-              <p className="break-words font-Saira w-customWidth3 md:ml-10 md:pt-10 md:font-medium tracking-wide ml-4 md:text-lg text-sm pt-3 ">
+              <p className="break-words font-Saira w-customWidth3 md:ml-10 md:pt-10 md:font-medium tracking-wide ml-3 md:text-lg text-sm pt-3 p-2">
                 We develop projects that push the boundaries of innovation in the crypto space. Our expert team brings your ideas to life, ensuring they are built on solid technical foundations and designed to succeed. From conceptualization to deployment, we provide end-to-end development services tailored to meet your specific needs.
               </p>
             </div>
-            <img src={react} alt="React" className="mt-4 md:h-full h-44" />
+            <img src={react} alt="React" className="mt-4 md:h-full block h-36" />
           </div>
         </div>
       </section>
@@ -108,7 +108,7 @@ const ScrollComponent = () => {
           </div>
           <div className="border border-gray-600 rounded-3xl md:w-customWidth w-customWidth6 md:ml-24  h-full md:-mt-80 -ml-5">
             <div>
-              <img src={devImage} className=' h-40 md:h-full'/>
+              <img src={devImage} className=' h-40 w-full md:h-full'/>
             </div>
             <div className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm md:h-40 h-72 rounded-b-3xl">
               <p className="break-words font-Saira w-customWidth2 md:ml-20 ml-5 pt-7 md:font-medium tracking-wide text-base">
