@@ -81,7 +81,7 @@ const Landingpage = () => {
         </span>
         </div>
         <div className="flex flex-col md:flex-row md:w-customWidth2 w-customWidth7 border border-gray-600 md:ml-14 -ml-1 mt-28 rounded-2xl bg-black">
-          <span className="md:w-1/2">
+          <span className="md:w-1/2 h-auto">
             <img src={mangetMan} alt="Magnet Man" />
           </span>
           <span className="md:w-1/2 bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm font-Saira md:rounded-r-3xl rounded-b-3xl">

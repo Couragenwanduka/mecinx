@@ -37,7 +37,7 @@ const ScrollComponent = () => {
                 We develop projects that push the boundaries of innovation in the crypto space. Our expert team brings your ideas to life, ensuring they are built on solid technical foundations and designed to succeed. From conceptualization to deployment, we provide end-to-end development services tailored to meet your specific needs.
               </p>
             </div>
-            <img src={react} alt="React" className="mt-4 md:h-full block h-36" />
+            <img src={react} alt="React" className="mt-4 w-full h-auto md:h-full block" />
           </div>
         </div>
       </section>
@@ -108,7 +108,7 @@ const ScrollComponent = () => {
           </div>
           <div className="border border-gray-600 rounded-3xl md:w-customWidth w-customWidth6 md:ml-24  h-full md:-mt-80 -ml-5">
             <div>
-              <img src={devImage} className=' h-40 w-full md:h-full'/>
+              <img src={devImage} className=' h-auto w-full md:h-full'/>
             </div>
             <div className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm md:h-40 h-72 rounded-b-3xl">
               <p className="break-words font-Saira w-customWidth2 md:ml-20 ml-5 pt-7 md:font-medium tracking-wide text-base">
