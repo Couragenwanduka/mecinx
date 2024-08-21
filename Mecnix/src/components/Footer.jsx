@@ -16,8 +16,8 @@ const Footer = () => {
                 </div>
                 <div className="md:mt-20 md:ml-96 ml-0 md:block mt-3">
                     <p className="font-saira font-bold md:text-3xl text-xl md:ml-36">Other Services</p>
-                    <p className="md:ml-36 mt-3 font-saira md:text-lg text-base text-gray-500 ml-4">Search Engine Optimization</p>
-                    <p className="md:ml-36 mt-3 font-saira md:text-lg text-base text-gray-500 ml-4">Optimized Press Release</p>
+                    <p className="md:ml-36 mt-3 font-saira md:text-lg text-base text-gray-500 ">Search Engine Optimization</p>
+                    <p className="md:ml-36 mt-3 font-saira md:text-lg text-base text-gray-500 ">Optimized Press Release</p>
                 </div>
             </div>
 
