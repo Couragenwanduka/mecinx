@@ -41,12 +41,12 @@ const Landingpage = () => {
     </section>
       
     <section>
-        <div className="absolute text-white md:-mt-60 -mt-70 font-Saira md:ml-20 ml-10">
+        <div className="absolute text-white md:-mt-60 -mt-70 font-saira md:ml-20 ml-10">
           <h1 className="md:text-7xl text-4xl font-bold -mt-72 md:-mt-0 hidden md:block">Reach</h1>
-          <h1 className='text-5xl font-bold -mt-72 md:hidden'>Reach Beyond</h1>
-          <h1 className="md:text-7xl text-4xl font-bold hidden md:block">Beyond Your Space</h1>
-          <h1 className="text-5xl font-bold md:hidden">Your Space</h1>
-          <p className="text-lg mt-10 text-gray-400 font-medium">
+          <h1 className='text-5xl font-bold -mt-72 md:hidden font-saira'>Reach Beyond</h1>
+          <h1 className="md:text-7xl text-4xl font-bold hidden md:block font-saira">Beyond Your Space</h1>
+          <h1 className="text-5xl font-bold md:hidden font-saira">Your Space</h1>
+          <p className="text-lg mt-10 text-gray-400 font-medium font-saira">
             Searching through the web3 Galaxies...
           </p>
           <p className="text-lg mt-3 text-gray-400 font-medium">
@@ -57,7 +57,7 @@ const Landingpage = () => {
       
 
       <div className="absolute text-white md:ml-6 ml-4 md:mt-0 -mt-68">
-        <p className="md:text-4xl text-base font-bold font-Saira md:ml-14 md:mt-32 ml-6 -mt-10">
+        <p className="md:text-4xl text-base font-bold font-saira md:ml-14 md:mt-32 ml-6 -mt-10">
           Join the League of Leading web3 Projects
         </p>
 
@@ -84,7 +84,7 @@ const Landingpage = () => {
           <span className="md:w-1/2 h-auto">
             <img src={mangetMan} alt="Magnet Man" />
           </span>
-          <span className="md:w-1/2 bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm font-Saira md:rounded-r-3xl rounded-b-3xl">
+          <span className="md:w-1/2 bg-white bg-opacity-5 backdrop-filter backdrop-blur-sm font-saira md:rounded-r-3xl rounded-b-3xl">
             <h1 className="text-white font-extrabold md:text-4xl text-2xl md:mt-28 mt-10 md:ml-20 ml-8">We connect</h1>
             <p className="break-words md:w-9/12 w-11/12 md:ml-20 ml-8 mt-3 md:text-lg text-sm md:mb-0 mb-10">
               Cutting-edge Web3 products with the community and investors who will reshape the future. Our goal is to enable people and companies to successfully navigate the complicated and constantly changing world of blockchain technology.
